@@ -1,0 +1,150 @@
+
+ /* -----------------------BODY ------------------------------- */ 
+
+ header, nav, .main-1, footer { max-width: 2400px; margin: 0 auto;}
+
+
+
+//body{}
+
+
+/*-------------------- HEADER ------------------------------ */
+
+
+header {
+width: 100%; 
+background-color: $fontColor; 
+
+}
+
+/*-------------------- NAV ------------------------------ */
+
+
+#navWrapper {
+  background-color: $primaryColor; 
+  
+  }
+
+
+/*-------------------- MAIN ------------------------------ */
+
+
+.main-1 {
+   
+ 
+#headerWrapper {
+  background-color: $primaryColor; 
+  
+  }
+  
+ 
+  
+
+
+  .headerMotto {
+    clear: both; 
+    width: 100%; 
+    text-align: center;
+    height: 850px;  
+
+  }
+
+
+
+
+
+    
+ 
+ figure.bookcoverimage {width: 100%; margin: 0 auto;}
+ figure.bookcoverimage img {width: 100%;}
+        
+    
+
+
+ 
+figure.myImage {width: 100%;}
+figure.myImage img {width: 25%; float: right; padding: 10px;}
+
+    
+ 
+
+
+ 
+/* ------------------------Column----------------------------- */
+
+.row { 
+    max-width: 1800px; 
+  
+  }
+  
+  .column{
+    -webkit-column-gap: normal; /* Chrome, Safari, Opera */
+    -moz-column-gap: normal; /* Firefox */
+    
+   
+  }
+  
+  @for $i from 1 through 12 {
+      $w: ($i / 12) * 100%;
+      .lg-#{$i} {width: $w; float: left;}
+      
+   }    
+
+    
+    
+    
+
+    
+    
+
+}
+
+
+
+
+
+/*-------------------- FOOTER ------------------------------ */
+/*
+footer { 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    
+    p {
+     text-align: center;   
+     grid-column: 2 / span 2;  
+    }
+     
+    
+    
+   
+div.apple { grid-row: 1; grid-column: 1; align-self: start; } 
+div.pear { grid-row: 1; grid-column: 2; }     
+div.banana { grid-row: 1; grid-column: 3; }  
+div.plum { grid-row: 1; grid-column: 4; }        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}*/
+    
+    
+    
+
+
+/*
+
+div#wrapperFooter {
+    clear: both; 
+    background-color: $thirdColor;
+}
+
+
+*/
+

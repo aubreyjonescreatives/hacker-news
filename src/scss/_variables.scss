@@ -1,0 +1,27 @@
+
+
+$primaryColor: #4B0082; 
+$secondaryColor: #429EA6;
+$fontColor: #ffffff; 
+$fourthColor: #000000;
+$alternativeColor: #c0c0c0; 
+$evenColor: #c0c0c0;  
+$footerfontColor: #000000; 
+$fifthColor: #000097; 
+
+
+$defaultFont: 'lato'; 
+$normalWeight: 300;  
+$boldWeight: 700; 
+
+$gutter: 1%; 
+$gutterdbl: (2 * $gutter); 
+
+
+$grid-breakpoints: (
+xm: 640px,
+sm: 720px,
+md: 1024, 
+lg: 1366, 
+
+);

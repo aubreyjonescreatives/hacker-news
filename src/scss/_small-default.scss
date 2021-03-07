@@ -1,0 +1,310 @@
+ /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%}
+
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+
+
+ /* -----------------------BODY ------------------------------- */ 
+
+header, nav, .main-1, footer {max-width: 640px; font-family: "lato";}
+
+
+
+body{
+    font-family: $defaultFont; 
+    font-weight: $normalWeight; 
+    font-size: 16px; 
+    
+}
+
+/* ------------------------HEADER----------------------------- */
+
+header {
+position: fixed; 
+top: 0; 
+font-size: 32px; 
+padding: 20px; 
+color: $secondaryColor; 
+background-color: white; 
+width: 100%; 
+text-align: center; 
+margin-top: 0px; 
+
+}
+
+
+
+
+/* ------------------------END HEADER----------------------------- */
+
+
+
+
+
+
+
+
+/* ------------------------ENDTOPNAV----------------------------- */
+
+
+
+Nav { 
+position: fixed; 
+top: 70px; 
+width: 100%; 
+background-color: $secondaryColor; 
+height: 70px; 
+
+li  { 
+float: left; 
+text-decoration: none; 
+list-style-type: none; 
+width: 12%; 
+padding: 20px 1px 20px 1px; 
+color: $fontColor; 
+font-size: 12px; 
+
+a:link {
+text-decoration: none; 
+color: $fontColor; 
+
+}
+
+
+a:visited {
+color: $fontColor;     
+}
+
+}
+
+
+li a:hover {
+    background-color: $primaryColor; 
+    width: 100%;  
+    padding: 20px 1px 20px 1px; 
+      
+        
+        
+    }
+
+}
+
+
+
+/* ------------------------MAIN----------------------------- */
+
+main {
+    //min-height: 20rem;
+    //padding: 1rem 2%;
+    //display: grid; 
+    //grid-template-columns: 1fr;
+    //grid-column-gap: 10px;
+    //grid-row-gap: 10px;  
+    
+     
+ 
+
+}
+
+
+
+ 
+figure.images {width: 100%;}
+figure.images img {width: 100%;}
+ 
+
+ 
+figure.gitImage {width: 50%;}
+figure.gitImage img {width: 100%; float: right;}
+ 
+
+
+
+ 
+figure.functionImage {width: 100%;}
+figure.functionImage img {width: 50%; display: block; margin: auto;}
+ 
+
+
+/* ------------------------ABOUT ME----------------------------- */
+
+.main-1 {
+margin: 50px; 
+
+
+.EmptyTop {
+    margin-top: 50px; 
+    padding: 50px; 
+}
+
+h1 {
+float: left; 
+margin: 40px 25px; 
+font-size: 42px; 
+
+}
+
+p {
+clear: both; 
+font-size: 24px; 
+line-height: 1.5; 
+margin: 25px; 
+text-align: left; 
+
+.Me {
+clear: both; 
+float: left; 
+margin: 0px 10px; 
+
+
+
+}
+
+
+
+  
+
+}
+
+
+figure.svelteImage {width: 100%;}
+figure.svelteImage img {width: 100%;}
+ 
+
+figure.npmImage {width: 100%;}
+figure.npmImage img {width: 100%;}
+ 
+
+
+
+figure.tsImage {width: 100%;}
+figure.tsImage img {width: 100%;}
+ 
+
+
+figure.unitImage {width: 100%;}
+figure.unitImage img {width: 100%;}
+ 
+
+
+
+figure.gitImage {width: 100%;}
+figure.gitImage img {width: 100%;}
+
+
+figure.rlImage {width: 100%;}
+figure.rlImage img {width: 100%;}
+ 
+ 
+
+
+.row { 
+    max-width: 650px; 
+  
+  }
+  
+  .column{
+    -webkit-column-gap: normal; /* Chrome, Safari, Opera */
+    -moz-column-gap: normal; /* Firefox */
+    
+   
+  }
+  
+  @for $i from 1 through 12 {
+      $w: ($i / 12) * 100%;
+   .sm-#{$i} {width: $w; float: left;}
+      
+   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+}
+
+
+/* ------------------------FOOTER----------------------------- */
+
+div#wrapperFooter {
+   // background-color: $thirdColor;
+    z-index: 999;
+    box-shadow: 2px 2px 10px 0px #666666; 
+    height: 75px; 
+    margin-top: 100px; 
+}
+
+
+
+
+footer {
+   // background-color: $thirdColor; 
+    height: 75px;   
+    margin-top: 100px;
+   
+    
+    p {  
+ //     color: $white; 
+      padding: 2rem 0;     
+      font-size: .9rem;
+      text-align: center; 
+     
+      p a {
+      //  color: $white;  
+         
+     } 
+
+     
+        
+    }  // end p 
+    
+   
+    
+/*    
+   
+div.apple { grid-row: 1; grid-column: 1; align-self: start; } 
+div.pear { grid-row: 2; grid-column: 1; }     
+div.banana { grid-row: 3; grid-column: 1; }  
+div.plum { grid-row: 4; grid-column: 1; }        
+    
+ */   
+    
+   
+
+
+
+
+}
+
+
+
+
+
+
+
+/* ------------------------Clearfix: Force an Element not to collapse----------------------------- */
+ 
+    .clearfix:after {
+        content: ""; 
+        display: table; 
+        
+        
+    }    
+    
+
+
+
+
+

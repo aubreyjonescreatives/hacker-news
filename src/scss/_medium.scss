@@ -1,0 +1,133 @@
+
+ header, nav, .main-1 {max-width: 1800px; margin: 0 auto;}
+
+
+
+/* ------------------------HEADER----------------------------- */
+
+header {
+    background-color: $fontColor; 
+    width: 100%; 
+    
+    }
+    
+
+
+/* ------------------------NAV----------------------------- */
+
+nav {
+
+li {
+font-size: 16px; 
+
+}
+
+}
+
+
+/*-------------------- MAIN ------------------------------ */
+
+
+.main-1 {
+
+
+    figure.svelteImage {width: 100%;}
+    figure.svelteImage img {width: 47%; margin: 10px; float: left;}
+     
+    
+    figure.npmImage {width: 100%;}
+    figure.npmImage img {width: 47%; margin: 10px; float: right; }
+     
+    
+    
+    
+    figure.tsImage {width: 100%;}
+    figure.tsImage img {width: 47%; margin: 10px; float: left; border: 1px solid $primaryColor; }
+     
+    
+    
+    figure.unitImage {width: 100%;}
+    figure.unitImage img {width: 47%; margin: 10px; float: right;}
+     
+    
+    
+    
+    figure.gitImage {width: 100%;}
+    figure.gitImage img {width: 47%; margin: 10px; float: left;}
+    
+    
+    figure.rlImage {width: 100%;}
+    figure.rlImage img {width: 47%; margin: 10px; float: right;}
+     
+     
+   
+    
+
+/* ------------------------Column----------------------------- */
+
+.row { 
+    max-width: 1800px; 
+  
+  }
+  
+  .column{
+    -webkit-column-gap: normal; /* Chrome, Safari, Opera */
+    -moz-column-gap: normal; /* Firefox */
+    
+   
+  }
+  
+  @for $i from 1 through 12 {
+      $w: ($i / 12) * 100%;
+      .md-#{$i} {width: $w; float: left;}
+      
+   }  
+    
+    
+  
+    
+  
+    
+}
+
+
+
+
+/*----------------FOOTER--------------------
+
+
+footer {
+    grid-template-columns: 1fr 1fr;
+    
+  
+    
+ p {
+     text-align: center;   
+     grid-column: 1 / span 2;  
+    }
+         
+    
+    
+   
+div.apple { grid-row: 1; grid-column: 1; align-self: start; } 
+div.pear { grid-row: 1; grid-column: 2;}     
+div.banana { grid-row: 2; grid-column: 1; }  
+div.plum { grid-row: 2; grid-column: 2; }        
+    
+ 
+    
+}    
+
+
+
+div#wrapperFooter {
+    clear: both; 
+    background-color: $primaryColor;
+}
+
+
+
+
+
+    
+----------------END FOOTER--------------------*/
