@@ -1,11 +1,7 @@
-# Extended App.JS as a React Component 
+# Used React's UseEffect to fetch Hacker News API using an async await promise
 
-# Set constructor function to an empty array using this.state
+# Sliced Hacker News API to only display top 30 stories
 
-# Fetched hacker news API via ComponentDidMount React Hook
+# Used Promise.all to combine fetched Hacker News APIs
 
-# Added promises to ComponentDidMount 
-
-# Rendered Fetched data 
-
-# Customized Material UI Components
+# Add material UI to display Hacker News API data
