@@ -102,10 +102,10 @@ body {
   top: 70PX;
   font-size: 32px;
   padding: 20px;
-  color: white;
-  background-color: #5FB0B7;
+  color: navy;
+  background-color: white;
   width: 100%;
-  text-align: left;
+  text-align: center;
   margin-top: 0px; }
 
 /* ------------------------END HEADER----------------------------- */
@@ -114,103 +114,69 @@ body {
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: #6C91BF;
+  background-color: #8D99AE;
   height: 70px;
-  color: white; }
+  color: white;
+  text-align: left; }
+  .Nav .NavInfo {
+    text-align: left;
+    font-size: 24px;
+    margin: 50px 0px;
+    width: 100%; }
 
 /* ------------------------First Story----------------------------- */
-.firstStory {
-  clear: both; }
-
-.card-container {
+.totalContainer {
   display: block;
   float: left;
-  width: 45%;
-  height: 300px;
-  margin: 15px;
-  background-color: #5FB0B7;
-  color: #6C91BF; }
-  .card-container .storyTitle {
-    background-color: #EDAFB8;
-    color: black;
-    padding: 20px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    margin-left: 0px;
+  margin: auto auto; }
+  .totalContainer .firstStory {
+    clear: both; }
+  .totalContainer figure.greeceImage {
+    width: 50%;
+    margin: 15px;
+    float: left; }
+  .totalContainer figure.greeceImage img {
     width: 100%; }
-  .card-container .storyScore {
-    margin-top: 75px;
-    clear: both; }
-  .card-container .storyURL {
-    clear: both; }
+  .totalContainer .card-container {
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    margin: 15px;
+    background-color: white;
+    color: navy; }
+    .totalContainer .card-container .storyTitle {
+      background-color: white;
+      color: #000097;
+      padding: 15px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      margin-left: 0px;
+      width: 100%;
+      height: 75px;
+      font-size: 20px; }
+      .totalContainer .card-container .storyTitle .titleLink {
+        color: navy; }
+    .totalContainer .card-container .storyScore {
+      margin-top: 50px;
+      margin-bottom: 35px;
+      clear: both; }
+    .totalContainer .card-container .storyLink {
+      clear: both;
+      color: white;
+      background-color: black;
+      width: 100%;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      padding: 10px;
+      font-size: 14px;
+      text-align: center; }
 
 /* ------------------------MAIN----------------------------- */
-figure.images {
-  width: 100%; }
-
-figure.images img {
-  width: 100%; }
-
-figure.gitImage {
-  width: 50%; }
-
-figure.gitImage img {
-  width: 100%;
-  float: right; }
-
-figure.functionImage {
-  width: 100%; }
-
-figure.functionImage img {
-  width: 50%;
-  display: block;
-  margin: auto; }
-
 /* ------------------------ABOUT ME----------------------------- */
 .main-1 {
   margin: 50px; }
-  .main-1 .EmptyTop {
-    margin-top: 50px;
-    padding: 50px; }
-  .main-1 h1 {
-    float: left;
-    margin: 40px 25px;
-    font-size: 42px; }
-  .main-1 p {
-    clear: both;
-    font-size: 24px;
-    line-height: 1.5;
-    margin: 25px;
-    text-align: left; }
-    .main-1 p .Me {
-      clear: both;
-      float: left;
-      margin: 0px 10px; }
-  .main-1 figure.svelteImage {
-    width: 100%; }
-  .main-1 figure.svelteImage img {
-    width: 100%; }
-  .main-1 figure.npmImage {
-    width: 100%; }
-  .main-1 figure.npmImage img {
-    width: 100%; }
-  .main-1 figure.tsImage {
-    width: 100%; }
-  .main-1 figure.tsImage img {
-    width: 100%; }
-  .main-1 figure.unitImage {
-    width: 100%; }
-  .main-1 figure.unitImage img {
-    width: 100%; }
-  .main-1 figure.gitImage {
-    width: 100%; }
-  .main-1 figure.gitImage img {
-    width: 100%; }
-  .main-1 figure.rlImage {
-    width: 100%; }
-  .main-1 figure.rlImage img {
-    width: 100%; }
   .main-1 .row {
     max-width: 650px; }
   .main-1 .column {
@@ -318,7 +284,7 @@ footer {
       width: 47%;
       margin: 10px;
       float: left;
-      border: 1px solid #5FB0B7; }
+      border: 1px solid #000000; }
     .main-1 figure.unitImage {
       width: 100%; }
     .main-1 figure.unitImage img {
@@ -433,13 +399,13 @@ footer {
 
   /*-------------------- NAV ------------------------------ */
   #navWrapper {
-    background-color: #5FB0B7; }
+    background-color: #000000; }
 
   /*-------------------- MAIN ------------------------------ */
   .main-1 {
     /* ------------------------Column----------------------------- */ }
     .main-1 #headerWrapper {
-      background-color: #5FB0B7; }
+      background-color: #000000; }
     .main-1 .headerMotto {
       clear: both;
       width: 100%;

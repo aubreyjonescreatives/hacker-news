@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List'; 
 import ListItem from '@material-ui/core/ListItem'; 
 import Link from '@material-ui/core/Link'
+import GreeceImage from './images/greece.jpg'
 
 function HackerNewsPosts({ stories }) {
   if (stories.length === 0) {
@@ -18,8 +19,9 @@ function HackerNewsPosts({ stories }) {
 return (
 
 
-  <div>
+  <div className="totalContainer">
       <div className="firstStory"></div>
+      <figure class="greeceImage"><img src={GreeceImage} alt="Greece"></img></figure>
   {stories.map(hackerItem => (
       
     <Card className="card-container">
@@ -29,16 +31,16 @@ return (
       />
       <CardContent>
        <List>
-       <ListItem key = {hackerItem.id}> <Link href={hackerItem.url}></Link> </ListItem>   
+       <ListItem key = {hackerItem.id}></ListItem>   
          </List> 
         <Typography gutterBottom variant="h5" component="h2" className="storyTitle">
-         {hackerItem.title}
+        <Link className="titleLink" href={hackerItem.url}>{hackerItem.title}</Link>
         </Typography>
         <Typography gutterBottom variant="h5" component="h2" className="storyScore">
-         {hackerItem.score}
+         Score: {hackerItem.score}
         </Typography>
         <Typography gutterBottom variant="h5" component="h2" className="storyURL">
-         {hackerItem.url}
+         <Link className="storyLink" href={hackerItem.url}>LINK</Link>
         </Typography>
       </CardContent>
     </CardActionArea>

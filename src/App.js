@@ -13,8 +13,8 @@ function App() {
 
 return (
 <div>
-<TopNavigation/>
 <Header/>
+<TopNavigation/>
   <HackerStories/>
 </div>
 

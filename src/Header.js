@@ -10,7 +10,7 @@ function Header() {
 
 return (
 <div>
-<h1 className="header1">Top 30 Stories</h1>
+<h1 className="header1">HACKER NEWS</h1>
 </div>
 
 

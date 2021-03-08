@@ -12,8 +12,8 @@ function topNavigation() {
 
 return (
   <Toolbar className="Nav">
-    <Typography variant="h6">
-       HACKER NEWS
+    <Typography variant="h6" className="NavInfo">
+       TOP 30 STORIES
     </Typography>
     
   </Toolbar>
