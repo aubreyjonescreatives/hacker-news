@@ -23,19 +23,17 @@ body{
 
 /* ------------------------HEADER----------------------------- */
 
-header {
-position: fixed; 
-top: 0; 
+.header1  {
+top: 70PX; 
 font-size: 32px; 
 padding: 20px; 
-color: $secondaryColor; 
-background-color: white; 
+color: white; 
+background-color: $primaryColor; 
 width: 100%; 
-text-align: center; 
+text-align: left; 
 margin-top: 0px; 
 
 }
-
 
 
 
@@ -52,44 +50,23 @@ margin-top: 0px;
 
 
 
-Nav { 
+.Nav { 
 position: fixed; 
-top: 70px; 
+top: 0px; 
 width: 100%; 
 background-color: $secondaryColor; 
 height: 70px; 
-
-li  { 
-float: left; 
-text-decoration: none; 
-list-style-type: none; 
-width: 12%; 
-padding: 20px 1px 20px 1px; 
-color: $fontColor; 
-font-size: 12px; 
-
-a:link {
-text-decoration: none; 
-color: $fontColor; 
+color: white; 
 
 }
 
 
-a:visited {
-color: $fontColor;     
-}
+/* ------------------------First Story----------------------------- */
 
-}
+.firstStory {
+    clear: both; 
+  
 
-
-li a:hover {
-    background-color: $primaryColor; 
-    width: 100%;  
-    padding: 20px 1px 20px 1px; 
-      
-        
-        
-    }
 
 }
 

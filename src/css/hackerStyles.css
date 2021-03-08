@@ -98,42 +98,29 @@ body {
   font-size: 16px; }
 
 /* ------------------------HEADER----------------------------- */
-header {
-  position: fixed;
-  top: 0;
+.header1 {
+  top: 70PX;
   font-size: 32px;
   padding: 20px;
-  color: #429EA6;
-  background-color: white;
+  color: white;
+  background-color: #5FB0B7;
   width: 100%;
-  text-align: center;
+  text-align: left;
   margin-top: 0px; }
 
 /* ------------------------END HEADER----------------------------- */
 /* ------------------------ENDTOPNAV----------------------------- */
-Nav {
+.Nav {
   position: fixed;
-  top: 70px;
+  top: 0px;
   width: 100%;
-  background-color: #429EA6;
-  height: 70px; }
-  Nav li {
-    float: left;
-    text-decoration: none;
-    list-style-type: none;
-    width: 12%;
-    padding: 20px 1px 20px 1px;
-    color: #ffffff;
-    font-size: 12px; }
-    Nav li a:link {
-      text-decoration: none;
-      color: #ffffff; }
-    Nav li a:visited {
-      color: #ffffff; }
-  Nav li a:hover {
-    background-color: #4B0082;
-    width: 100%;
-    padding: 20px 1px 20px 1px; }
+  background-color: #6C91BF;
+  height: 70px;
+  color: white; }
+
+/* ------------------------First Story----------------------------- */
+.firstStory {
+  clear: both; }
 
 /* ------------------------MAIN----------------------------- */
 figure.images {
@@ -308,7 +295,7 @@ footer {
       width: 47%;
       margin: 10px;
       float: left;
-      border: 1px solid #4B0082; }
+      border: 1px solid #5FB0B7; }
     .main-1 figure.unitImage {
       width: 100%; }
     .main-1 figure.unitImage img {
@@ -423,13 +410,13 @@ footer {
 
   /*-------------------- NAV ------------------------------ */
   #navWrapper {
-    background-color: #4B0082; }
+    background-color: #5FB0B7; }
 
   /*-------------------- MAIN ------------------------------ */
   .main-1 {
     /* ------------------------Column----------------------------- */ }
     .main-1 #headerWrapper {
-      background-color: #4B0082; }
+      background-color: #5FB0B7; }
     .main-1 .headerMotto {
       clear: both;
       width: 100%;
