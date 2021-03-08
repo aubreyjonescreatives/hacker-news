@@ -71,26 +71,68 @@ text-align: left;
 
 /* ------------------------First Story----------------------------- */
 
+
 .totalContainer {
-   display: block; 
-   float: left; 
-   margin: auto auto; 
+    display: block; 
+    float: left; 
+    margin: auto; 
+ 
+
+
+
+.image-container {
+    float: left; 
+    position: relative; 
+    width: 40%; 
+    margin: 15px; 
+
+
+    .image-container-h1 {
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        background-color: $secondaryColor; 
+        color: white; 
+        width: 100%; 
+        opacity: .3; 
+       
+    }
+
+    .image-container-h2 {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        background-color: $secondaryColor; 
+        color: white; 
+        width: 100%; 
+        opacity: .3; 
+    }
+
+   
+    .greeceImage {width: 100%; display: block; float: left; height: 430px;} 
+    .greeceImage img {width: 100%; }
+    
+}
+
+
 
 .firstStory {
-    clear: both; 
+ //   clear: both; 
   
 
 
 }
 
 
-figure.greeceImage {width: 50%; margin: 15px; float: left;} 
-figure.greeceImage img {width: 100%; }
+
+
+
 
 .card-container {
   display: inline-block; 
   width: 40%; 
   height: 200px; 
+  margin: auto; 
   margin:  15px;  
   background-color: white; 
   color: $secondaryColor;

@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List'; 
 import ListItem from '@material-ui/core/ListItem'; 
 import Link from '@material-ui/core/Link'
+import CardHeader from '@material-ui/core/CardHeader';
 import GreeceImage from './images/greece.jpg'
 
 function HackerNewsPosts({ stories }) {
@@ -20,8 +21,14 @@ return (
 
 
   <div className="totalContainer">
-      <div className="firstStory"></div>
-      <figure class="greeceImage"><img src={GreeceImage} alt="Greece"></img></figure>
+    
+     <Card className="image-container">
+      <CardHeader className="image-container-h1" subheader="September 14, 2016"/>
+      <CardMedia image={GreeceImage} title="Greece" className="greeceImage"/>
+    <CardHeader className="image-container-h2" subheader="Greece"/>
+    </Card>
+    
+    
   {stories.map(hackerItem => (
       
     <Card className="card-container">

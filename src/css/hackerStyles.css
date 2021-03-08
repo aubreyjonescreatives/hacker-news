@@ -128,19 +128,40 @@ body {
 .totalContainer {
   display: block;
   float: left;
-  margin: auto auto; }
-  .totalContainer .firstStory {
-    clear: both; }
-  .totalContainer figure.greeceImage {
-    width: 50%;
-    margin: 15px;
-    float: left; }
-  .totalContainer figure.greeceImage img {
-    width: 100%; }
+  margin: auto; }
+  .totalContainer .image-container {
+    float: left;
+    position: relative;
+    width: 40%;
+    margin: 15px; }
+    .totalContainer .image-container .image-container-h1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: navy;
+      color: white;
+      width: 100%;
+      opacity: .3; }
+    .totalContainer .image-container .image-container-h2 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: navy;
+      color: white;
+      width: 100%;
+      opacity: .3; }
+    .totalContainer .image-container .greeceImage {
+      width: 100%;
+      display: block;
+      float: left;
+      height: 430px; }
+    .totalContainer .image-container .greeceImage img {
+      width: 100%; }
   .totalContainer .card-container {
     display: inline-block;
     width: 40%;
     height: 200px;
+    margin: auto;
     margin: 15px;
     background-color: white;
     color: navy; }
