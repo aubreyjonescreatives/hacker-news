@@ -122,6 +122,29 @@ body {
 .firstStory {
   clear: both; }
 
+.card-container {
+  display: block;
+  float: left;
+  width: 45%;
+  height: 300px;
+  margin: 15px;
+  background-color: #5FB0B7;
+  color: #6C91BF; }
+  .card-container .storyTitle {
+    background-color: #EDAFB8;
+    color: black;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 0px;
+    width: 100%; }
+  .card-container .storyScore {
+    margin-top: 75px;
+    clear: both; }
+  .card-container .storyURL {
+    clear: both; }
+
 /* ------------------------MAIN----------------------------- */
 figure.images {
   width: 100%; }

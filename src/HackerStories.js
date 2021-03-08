@@ -22,7 +22,7 @@ return (
       <div className="firstStory"></div>
   {stories.map(hackerItem => (
       
-    <Card>
+    <Card className="card-container">
     <CardActionArea>
       <CardMedia
         title="Hacker News Top Story"
@@ -31,11 +31,14 @@ return (
        <List>
        <ListItem key = {hackerItem.id}> <Link href={hackerItem.url}></Link> </ListItem>   
          </List> 
-        <Typography gutterBottom variant="h5" component="h2">
+        <Typography gutterBottom variant="h5" component="h2" className="storyTitle">
          {hackerItem.title}
         </Typography>
-        <Typography gutterBottom variant="h5" component="h2">
+        <Typography gutterBottom variant="h5" component="h2" className="storyScore">
          {hackerItem.score}
+        </Typography>
+        <Typography gutterBottom variant="h5" component="h2" className="storyURL">
+         {hackerItem.url}
         </Typography>
       </CardContent>
     </CardActionArea>

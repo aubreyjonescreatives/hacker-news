@@ -71,6 +71,43 @@ color: white;
 }
 
 
+.card-container {
+  display: block; 
+  float: left; 
+  width: 45%; 
+  height: 300px; 
+  margin: 15px; 
+  background-color: $primaryColor; 
+  color: $secondaryColor;
+  
+  
+  .storyTitle {
+      background-color: $fourthColor; 
+      color: black; 
+      padding: 20px; 
+      position: absolute; 
+      top: 0px; 
+      left: 0px; 
+      margin-left: 0px; 
+      width: 100%; 
+  }
+
+.storyScore {
+    margin-top: 75px; 
+    clear: both; 
+   
+}
+
+
+.storyURL {
+    clear: both; 
+   
+}
+
+
+}
+
+
 
 /* ------------------------MAIN----------------------------- */
 
